@@ -2,6 +2,7 @@
   * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    text-align: center;
   }
 
   html {
@@ -48,7 +49,7 @@
   }
   
   main a {
-      display: flex;
+    display: flex;
       width: 100%;
       text-transform: uppercase;
       text-align: center;
@@ -66,12 +67,13 @@
   .container {
     display: flex;
     overflow-x: auto;
-    padding: 10px;;
+    padding: 10px;
   }
 
   .container card {
     margin-right: 15px;
     background-color: grey;
+    padding: 10px;
   }
 
   .container::-webkit-scrollbar {
