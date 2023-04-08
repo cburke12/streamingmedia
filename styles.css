@@ -1,87 +1,86 @@
 
-  * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    text-align: center;
-  }
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+}
 
-  html {
-    background-color: #020659;
-  }
+html {
+  background-color: #020659;
+}
 
-  header {
-    background-color: #030ABC;
+header {
+  background-color: #030ABC;
+  width: 100%;
+  display: inline-block;
+}
+
+header img {
+    display: list-item;
+}
+
+h2 {
+ visibility: hidden;
+  height: 0;
+    width: 0;
+    padding: 0;
+}
+
+nav li {
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+  float: left;
+}
+
+nav a {
+  display: grid;
+    padding: 5px;
+}
+
+nav a:hover {
+  background-color:#590242;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+    text-align: center; 
+}
+
+main a {
+  display: flex;
     width: 100%;
-    display: inline-block;
-  }
-  
-  header img {
-      display: list-item;
-  }
-
-  nav h2 {
-   visibility: hidden;
-    height: 0px;
-      width: 0px;
-      padding: 0px;
-  }
-  
-  nav li {
-    list-style: none;
+    text-transform: uppercase;
     text-align: center;
-    padding: 20px;
-    float: left;
-  }
-  
-  nav a {
-    display: grid;
-      padding: 5px;
-  }
-  
-  nav a:hover {
-    background-color:#590242;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 15px;
-      text-align: center; 
-  }
-  
-  main a {
-    display: flex;
-      width: 100%;
-      text-transform: uppercase;
-      text-align: center;
-      text-decoration: underline;
-      justify-content: center;
-      padding-top: 30px;
-      padding-bottom: 10px;
-  }
-  
- a:hover {
-    color: white;
-    background-color: #590242;
-  }
+    text-decoration: underline;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
 
-  .container {
-    display: flex;
-    overflow-x: auto;
-    padding: 10px;
-  }
+a:hover {
+  color: white;
+  background-color: #590242;
+}
 
-  .container card {
-    margin-right: 15px;
-    background-color: grey;
-    padding: 10px;
-  }
+.container {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+}
 
-  .container::-webkit-scrollbar {
-    display: none;
-  }
+.container card {
+  margin-right: 15px;
+  background-color: grey;
+  padding: 10px;
+}
 
-  footer {
-    text-align: center;
-    font-style: italic;
-  }
-  
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}
