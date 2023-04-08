@@ -1,0 +1,85 @@
+
+  * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+
+  html {
+    background-color: #020659;
+  }
+
+  header {
+    background-color: #030ABC;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  header img {
+      display: list-item;
+  }
+
+  nav h2 {
+   visibility: hidden;
+    height: 0px;
+      width: 0px;
+      padding: 0px;
+  }
+  
+  nav li {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    float: left;
+  }
+  
+  nav a {
+    display: grid;
+      padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color:#590242;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 15px;
+      text-align: center; 
+  }
+  
+  main a {
+      display: flex;
+      width: 100%;
+      text-transform: uppercase;
+      text-align: center;
+      text-decoration: underline;
+      justify-content: center;
+      padding-top: 30px;
+      padding-bottom: 10px;
+  }
+  
+ a:hover {
+    color: white;
+    background-color: #590242;
+  }
+
+  .container {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;;
+  }
+
+  .container card {
+    margin-right: 15px;
+    background-color: grey;
+  }
+
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+    font-style: italic;
+  }
+  
