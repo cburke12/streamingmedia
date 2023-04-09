@@ -10,9 +10,13 @@
   }
 
   header {
+    float: right;
     background-color: #030ABC;
+    position: relative;
     width: 100%;
+    min-width: 780px;
     display: inline-block;
+    z-index: 1
   }
   
   header img {
@@ -64,6 +68,14 @@
     background-color: #590242;
   }
 
+  body {
+    min-width: 780px;
+  }
+
+  section {
+    margin: 20px;
+  }
+
   .container {
     display: flex;
     overflow-x: auto;
@@ -83,5 +95,11 @@
   footer {
     text-align: center;
     font-style: italic;
+    background-color: #030ABC;
   }
   
+  @media screen and (max-width: 780px) {
+    body {
+      background-color: #2104D9;
+    }
+  }
